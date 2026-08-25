@@ -1,63 +1,70 @@
 import json
-import time
-import random
 import os
+import random
 import sys
+import time
+
 from kafka import KafkaProducer
 
-# etl/ is mounted at /etl in docker (see docker-compose.yml)
+# etl/ is mounted at /etl inside docker (see docker-compose.yml)
 sys.path.append("/etl")
-from extract import extract_from_csv   # noqa: E402
-from clean import clean_orders          # noqa: E402
+from extract import extract_from_csv  # noqa: E402
+from clean import clean_orders  # noqa: E402
 
 
-def build_producer(bootstrap_servers: str) -> KafkaProducer:
-    return KafkaProducer(
-        bootstrap_servers=bootstrap_servers,
-        value_serializer=lambda v: json.dumps(v, default=str).encode("utf-8"),
+def build_producer(broker_address):
+    producer = KafkaProducer(
+        bootstrap_servers=broker_address,
+        value_serializer=lambda event: json.dumps(event).encode("utf-8"),
         retries=5,
-        retry_backoff_ms=2000,
-        request_timeout_ms=20000,
     )
+    return producer
 
 
-def stream_orders(producer: KafkaProducer, topic: str, clean_df, delay_seconds: float = 2.0):
-    print(f"[producer] Streaming from {len(clean_df)} cleaned historical orders "
-          f"into topic '{topic}' every {delay_seconds}s...")
+def make_event(order_id, template_row):
+    """Build a fake live order using a real cleaned order as the base."""
+    quantity = random.choice([1, 1, 2, 3])
+    price = float(template_row["unit_price"])
 
-    next_order_id = int(clean_df["order_id"].max()) + 1
+    event = {
+        "order_id": order_id,
+        "customer_name": template_row["customer_name"],
+        "product_name": template_row["product_name"],
+        "category": template_row["category"],
+        "unit_price": price,
+        "quantity": quantity,
+        "country": template_row["country"],
+        "event_time": time.time(),
+        "total_amount": round(price * quantity, 2),
+    }
+    return event
+
+
+def stream_orders(producer, topic, clean_orders_df, delay_seconds=2.0):
+    """Send one order every few seconds, forever."""
+    next_order_id = int(clean_orders_df["order_id"].max()) + 1
 
     while True:
-        template = clean_df.sample(1).iloc[0]
+        # pick a random real cleaned order to use as the template
+        sample = clean_orders_df.sample(n=1)
+        template_row = sample.iloc[0]
 
-        event = {
-            "order_id": next_order_id,
-            "customer_name": template["customer_name"],
-            "product_name": template["product_name"],
-            "category": template["category"],
-            "unit_price": float(template["unit_price"]),
-            "quantity": int(random.choice([1, 1, 2, 3])),
-            "country": template["country"],
-            "event_time": time.time(),
-        }
-        event["total_amount"] = round(event["unit_price"] * event["quantity"], 2)
-
+        event = make_event(next_order_id, template_row)
         producer.send(topic, value=event)
-        producer.flush()
-        print(f"[producer] Sent order {event['order_id']}: "
-              f"{event['product_name']} x{event['quantity']} = ${event['total_amount']}")
+
+        print(f"[producer] Sent order {event['order_id']}: {event['product_name']} x{event['quantity']}")
 
         next_order_id += 1
         time.sleep(delay_seconds)
 
 
 if __name__ == "__main__":
-    KAFKA_BROKER = os.getenv("KAFKA_BROKER", "kafka:9092")
-    RAW_DATA_PATH = os.getenv("RAW_DATA_PATH", "/data/raw_orders_messy.csv")
-    TOPIC = os.getenv("KAFKA_TOPIC", "orders_clean")
+    broker = os.getenv("KAFKA_BROKER", "kafka:9092")
+    data_path = os.getenv("RAW_DATA_PATH", "/data/raw_orders_messy.csv")
+    topic = os.getenv("KAFKA_TOPIC", "orders_clean")
 
-    raw_df = extract_from_csv(RAW_DATA_PATH)
+    raw_df = extract_from_csv(data_path)
     clean_df = clean_orders(raw_df)
 
-    producer = build_producer(KAFKA_BROKER)
-    stream_orders(producer, TOPIC, clean_df, delay_seconds=2.0)
+    producer = build_producer(broker)
+    stream_orders(producer, topic, clean_df)
