@@ -1,0 +1,264 @@
+order_id,customer_name,product_name,category,unit_price,quantity,order_date,country
+1001,Ayesha Noor,WIRELESS MOUSE,Electronics,18.5,2,2026-05-20,USA
+1002,Ayesha Noor,  BALL PEN PACK  ,Stationery,3.2,1,06-29-2026,UAE
+1003,Ali Raza,Office Chair,Furniture,120.0,2,2026-02-09,PAKISTAN
+1004,Zainab Malik,  WIRELESS MOUSE  ,Electronics,18.5,3,2026-05-18,UAE
+1005,  ,Wireless Mouse,Electronics,18.5,5,01-12-2026,pakistan
+1006,Sana Khan,Desk Lamp,Furniture,22.0,-1,2026-04-04,PAKISTAN
+1007,Sana Khan,NOTEBOOK SET,Stationery,6.5,2,29/04/2026,PAKISTAN
+1008,Ali Raza,WATER BOTTLE,Home,9.99,2,13/04/2026,Pakistan
+1009,Zainab Malik,Office Chair,Furniture,120.0,2,14/06/2026,pakistan
+1010,,DESK LAMP,Furniture,22.0,3,30/05/2026,PAKISTAN
+1011,Fatima Sheikh,  Office Chair  ,Furniture,120.0,1,02-09-2026,pakistan
+1012,  ,Ball Pen Pack,Stationery,3.2,0,01-03-2026,
+1013,Hassan Iqbal,Wireless Mouse,Electronics,18.5,5,2026-04-27,
+1014,,Desk Lamp,Furniture,22.0,1,06-13-2026,USA
+1015,,OFFICE CHAIR,Furniture,120.0,1,29/01/2026,PAKISTAN
+1016,Sana Khan,OFFICE CHAIR,Furniture,120.0,1,07-14-2026,pakistan
+1017,M. Bilal,Mechanical Keyboard,Electronics,65.0,3,02-24-2026,
+1018,Zainab Malik,Office Chair,Furniture,120.0,0,2026-03-05,Pakistan
+1019,  ,NOTEBOOK SET,Stationery,,2,07-01-2026,Pakistan
+1020,Zainab Malik,  OFFICE CHAIR  ,Furniture,120.0,1,2026-05-05,USA
+1021,  ,Mechanical Keyboard,Electronics,65.0,0,2026-04-15,Pakistan
+1022,Usman Tariq,Wireless Mouse,Electronics,18.5,0,06-17-2026,Pakistan
+1023,Sana Khan,Laptop,Electronics,750.0,2,05/02/2026,pakistan
+1024,Sana Khan,Desk Lamp,Furniture,22.0,0,2026-01-26,
+1025,Ayesha Noor,Water Bottle,Home,9.99,2,2026-04-13,pakistan
+1026,Fatima Sheikh,BALL PEN PACK,Stationery,3.2,3,07-20-2026,
+1027,Ali Raza,BLUETOOTH SPEAKER,Electronics,45.0,1,30/05/2026,USA
+1028,Sana Khan,WATER BOTTLE,Home,,2,01-18-2026,pakistan
+1029,Ayesha Noor,BALL PEN PACK,Stationery,3.2,1,05-30-2026,USA
+1030,Zainab Malik,Notebook Set,Stationery,6.5,2,15/06/2026,UAE
+1031,Ali Raza,Notebook Set,Stationery,6.5,0,2026-01-26,USA
+1032,Zainab Malik,  Office Chair  ,Furniture,120.0,1,10/02/2026,USA
+1033,,Desk Lamp,Furniture,22.0,1,2026-06-19,pakistan
+1034,,  DESK LAMP  ,Furniture,22.0,2,03/07/2026,pakistan
+1035,Ali Raza,Desk Lamp,Furniture,22.0,1,2026-01-12,PAKISTAN
+1036,Fatima Sheikh,Mechanical Keyboard,Electronics,65.0,-1,2026-06-26,USA
+1037,M. Bilal,Laptop,Electronics,750.0,-1,11/01/2026,pakistan
+1038,,Office Chair,Furniture,120.0,-1,2026-03-02,pakistan
+1039,Zainab Malik,BALL PEN PACK,Stationery,3.2,-1,05/03/2026,pakistan
+1040,Fatima Sheikh,  Wireless Mouse  ,Electronics,18.5,2,31/03/2026,pakistan
+1041,Zainab Malik,  OFFICE CHAIR  ,Furniture,120.0,3,13/03/2026,
+1042,,Water Bottle,Home,9.99,5,2026-03-08,USA
+1043,Zainab Malik,DESK LAMP,Furniture,22.0,5,30/01/2026,USA
+1044,Ali Raza,OFFICE CHAIR,Furniture,120.0,2,20/06/2026,USA
+1045,Hassan Iqbal,  Notebook Set  ,Stationery,6.5,3,28/06/2026,USA
+1046,Usman Tariq,MECHANICAL KEYBOARD,Electronics,65.0,2,2026-05-21,PAKISTAN
+1047,  ,DESK LAMP,Furniture,22.0,5,02-24-2026,UAE
+1048,  ,Mechanical Keyboard,Electronics,65.0,5,03-02-2026,PAKISTAN
+1049,Ali Raza,  Office Chair  ,Furniture,120.0,2,2026-07-16,UAE
+1050,Usman Tariq,Ball Pen Pack,Stationery,3.2,0,2026-06-26,Pakistan
+1051,,BALL PEN PACK,Stationery,,0,2026-03-05,UAE
+1052,,Mechanical Keyboard,Electronics,65.0,5,06-06-2026,USA
+1053,M. Bilal,Ball Pen Pack,Stationery,3.2,0,13/06/2026,USA
+1054,Sana Khan,Bluetooth Speaker,Electronics,45.0,3,2026-05-19,pakistan
+1055,Ayesha Noor,MECHANICAL KEYBOARD,Electronics,65.0,1,30/04/2026,Pakistan
+1056,  ,Office Chair,Furniture,120.0,1,08/04/2026,Pakistan
+1057,Usman Tariq,NOTEBOOK SET,Stationery,6.5,2,2026-05-05,UAE
+1058,M. Bilal,Notebook Set,Stationery,6.5,0,2026-05-17,UAE
+1059,Usman Tariq,  Backpack  ,Fashion,34.0,2,08/03/2026,PAKISTAN
+1060,Usman Tariq,Office Chair,Furniture,120.0,3,2026-03-06,UAE
+1061,Zainab Malik,  Laptop  ,Electronics,750.0,2,2026-06-16,Pakistan
+1062,M. Bilal,  OFFICE CHAIR  ,Furniture,120.0,2,2026-05-25,UAE
+1063,  ,  Desk Lamp  ,Furniture,22.0,1,2026-03-21,USA
+1064,Usman Tariq,Laptop,Electronics,750.0,-1,06-01-2026,
+1065,  ,OFFICE CHAIR,Furniture,120.0,1,11/01/2026,USA
+1066,Zainab Malik,  Ball Pen Pack  ,Stationery,3.2,1,28/01/2026,PAKISTAN
+1067,,Bluetooth Speaker,Electronics,45.0,3,18/07/2026,UAE
+1068,Zainab Malik,Ball Pen Pack,Stationery,3.2,2,2026-04-26,UAE
+1069,Ali Raza,Backpack,Fashion,34.0,0,24/02/2026,PAKISTAN
+1070,Hassan Iqbal,NOTEBOOK SET,Stationery,6.5,1,03-03-2026,UAE
+1071,Fatima Sheikh,Bluetooth Speaker,Electronics,-45.0,0,2026-03-17,UAE
+1072,Fatima Sheikh,Office Chair,Furniture,120.0,5,26/03/2026,
+1073,Sana Khan,BLUETOOTH SPEAKER,Electronics,45.0,2,07-15-2026,pakistan
+1074,  ,OFFICE CHAIR,Furniture,120.0,3,2026-03-17,PAKISTAN
+1075,M. Bilal,Mechanical Keyboard,Electronics,,3,01-14-2026,PAKISTAN
+1076,Sana Khan,Mechanical Keyboard,Electronics,65.0,1,23/04/2026,pakistan
+1077,Sana Khan,LAPTOP,Electronics,750.0,1,06-11-2026,Pakistan
+1078,Hassan Iqbal,MECHANICAL KEYBOARD,Electronics,65.0,1,15/07/2026,USA
+1079,,Backpack,Fashion,34.0,-1,31/05/2026,PAKISTAN
+1080,Sana Khan,Backpack,Fashion,34.0,2,2026-01-21,pakistan
+1081,Usman Tariq,  Mechanical Keyboard  ,Electronics,65.0,0,2026-01-09,PAKISTAN
+1082,Ayesha Noor,Desk Lamp,Furniture,22.0,3,2026-06-19,UAE
+1083,Hassan Iqbal,Wireless Mouse,Electronics,18.5,2,03-20-2026,
+1084,Fatima Sheikh,Backpack,Fashion,34.0,3,05-09-2026,UAE
+1085,Usman Tariq,  BLUETOOTH SPEAKER  ,Electronics,-45.0,5,02-28-2026,USA
+1086,Hassan Iqbal,Backpack,Fashion,34.0,1,05-13-2026,UAE
+1087,Fatima Sheikh,DESK LAMP,Furniture,22.0,1,03-24-2026,Pakistan
+1088,Hassan Iqbal,Mechanical Keyboard,Electronics,65.0,-1,2026-04-27,PAKISTAN
+1089,Usman Tariq,Desk Lamp,Furniture,22.0,1,2026-04-16,pakistan
+1090,Fatima Sheikh,Water Bottle,Home,9.99,1,15/03/2026,
+1091,  ,BLUETOOTH SPEAKER,Electronics,45.0,2,01-04-2026,UAE
+1092,Sana Khan,WIRELESS MOUSE,Electronics,18.5,0,09/02/2026,
+1093,Fatima Sheikh,Desk Lamp,Furniture,22.0,0,2026-04-09,USA
+1094,Sana Khan,  Water Bottle  ,Home,9.99,3,03-29-2026,PAKISTAN
+1095,  ,LAPTOP,Electronics,750.0,0,04/05/2026,PAKISTAN
+1096,Zainab Malik,Water Bottle,Home,9.99,2,2026-04-09,UAE
+1097,Usman Tariq,Laptop,Electronics,750.0,-1,2026-06-16,UAE
+1098,Zainab Malik,LAPTOP,Electronics,750.0,1,15/05/2026,Pakistan
+1099,M. Bilal,Mechanical Keyboard,Electronics,65.0,1,03-28-2026,
+1100,,Ball Pen Pack,Stationery,3.2,-1,14/07/2026,USA
+1101,Hassan Iqbal,Laptop,Electronics,750.0,2,01-26-2026,
+1102,Ali Raza,Wireless Mouse,Electronics,18.5,1,02/04/2026,UAE
+1103,M. Bilal,MECHANICAL KEYBOARD,Electronics,65.0,2,04-08-2026,
+1104,Ayesha Noor,Office Chair,Furniture,120.0,0,2026-06-20,UAE
+1105,Fatima Sheikh,  Desk Lamp  ,Furniture,22.0,5,04-19-2026,PAKISTAN
+1106,Usman Tariq,  Bluetooth Speaker  ,Electronics,45.0,0,04-02-2026,PAKISTAN
+1107,Usman Tariq,DESK LAMP,Furniture,,3,06-25-2026,Pakistan
+1108,Hassan Iqbal,Backpack,Fashion,34.0,2,2026-06-12,USA
+1109,M. Bilal,Desk Lamp,Furniture,22.0,1,21/03/2026,Pakistan
+1110,Hassan Iqbal,  Backpack  ,Fashion,34.0,5,02-03-2026,PAKISTAN
+1111,M. Bilal,Water Bottle,Home,9.99,3,03-17-2026,PAKISTAN
+1112,Ayesha Noor,  Wireless Mouse  ,Electronics,18.5,-1,2026-04-04,UAE
+1113,Zainab Malik,  LAPTOP  ,Electronics,750.0,3,2026-04-06,
+1114,,Office Chair,Furniture,120.0,5,01-17-2026,UAE
+1115,Ali Raza,  Desk Lamp  ,Furniture,22.0,1,2026-01-25,USA
+1116,,Mechanical Keyboard,Electronics,65.0,-1,04-17-2026,Pakistan
+1117,Hassan Iqbal,Bluetooth Speaker,Electronics,45.0,1,2026-04-24,PAKISTAN
+1118,Zainab Malik,Wireless Mouse,Electronics,18.5,1,01/02/2026,Pakistan
+1119,Ali Raza,Office Chair,Furniture,120.0,1,02-02-2026,pakistan
+1120,  ,Wireless Mouse,Electronics,18.5,2,2026-07-18,USA
+1121,M. Bilal,LAPTOP,Electronics,750.0,3,2026-01-07,Pakistan
+1122,Zainab Malik,Notebook Set,Stationery,6.5,1,09/07/2026,USA
+1123,Zainab Malik,Wireless Mouse,Electronics,18.5,1,2026-06-07,
+1124,Ali Raza,Water Bottle,Home,9.99,1,04-20-2026,Pakistan
+1125,Sana Khan,Bluetooth Speaker,Electronics,45.0,5,03-12-2026,
+1126,  ,Backpack,Fashion,34.0,3,01-26-2026,Pakistan
+1127,Fatima Sheikh,Water Bottle,Home,9.99,2,13/04/2026,
+1128,Hassan Iqbal,Wireless Mouse,Electronics,18.5,5,2026-05-02,Pakistan
+1129,Zainab Malik,  WIRELESS MOUSE  ,Electronics,18.5,2,05-24-2026,PAKISTAN
+1130,Usman Tariq,Wireless Mouse,Electronics,18.5,1,2026-04-01,USA
+1131,Ayesha Noor,WATER BOTTLE,Home,9.99,1,30/01/2026,USA
+1132,  ,Office Chair,Furniture,120.0,1,27/06/2026,Pakistan
+1133,Zainab Malik,MECHANICAL KEYBOARD,Electronics,,5,02-06-2026,
+1134,Ali Raza,BALL PEN PACK,Stationery,3.2,1,18/04/2026,PAKISTAN
+1135,  ,Mechanical Keyboard,Electronics,65.0,1,07-13-2026,Pakistan
+1136,Fatima Sheikh,WIRELESS MOUSE,Electronics,18.5,0,2026-05-12,PAKISTAN
+1137,  ,BALL PEN PACK,Stationery,3.2,0,26/02/2026,USA
+1138,Ayesha Noor,LAPTOP,Electronics,750.0,2,2026-01-31,UAE
+1139,Ayesha Noor,BALL PEN PACK,Stationery,3.2,5,11/01/2026,Pakistan
+1140,  ,Bluetooth Speaker,Electronics,45.0,-1,17/04/2026,Pakistan
+1141,  ,BALL PEN PACK,Stationery,3.2,0,23/01/2026,Pakistan
+1142,Sana Khan,Office Chair,Furniture,120.0,-1,26/02/2026,pakistan
+1143,,  Wireless Mouse  ,Electronics,18.5,2,07-06-2026,pakistan
+1144,M. Bilal,OFFICE CHAIR,Furniture,120.0,2,02-15-2026,UAE
+1145,Fatima Sheikh,Bluetooth Speaker,Electronics,45.0,5,08/02/2026,Pakistan
+1146,Hassan Iqbal,Bluetooth Speaker,Electronics,45.0,1,29/04/2026,Pakistan
+1147,Sana Khan,Laptop,Electronics,750.0,-1,2026-07-09,UAE
+1148,Fatima Sheikh,Backpack,Fashion,34.0,2,03-29-2026,Pakistan
+1149,Fatima Sheikh,  Water Bottle  ,Home,9.99,0,04/04/2026,PAKISTAN
+1150,  ,Ball Pen Pack,Stationery,3.2,1,17/01/2026,Pakistan
+1151,  ,Water Bottle,Home,9.99,2,06/02/2026,PAKISTAN
+1152,Sana Khan,BALL PEN PACK,Stationery,3.2,3,2026-03-26,
+1153,,WATER BOTTLE,Home,,5,2026-03-21,pakistan
+1154,Ayesha Noor,Notebook Set,Stationery,6.5,2,01-26-2026,USA
+1155,  ,WATER BOTTLE,Home,9.99,2,02-16-2026,USA
+1156,Zainab Malik,  Mechanical Keyboard  ,Electronics,65.0,2,07-12-2026,UAE
+1157,Fatima Sheikh,Office Chair,Furniture,120.0,2,23/04/2026,PAKISTAN
+1158,M. Bilal,Ball Pen Pack,Stationery,3.2,2,2026-03-06,
+1159,Sana Khan,Bluetooth Speaker,Electronics,45.0,1,11/03/2026,USA
+1160,Ayesha Noor,  Mechanical Keyboard  ,Electronics,65.0,0,2026-04-17,UAE
+1161,Sana Khan,Water Bottle,Home,9.99,5,01-26-2026,
+1162,Hassan Iqbal,  Notebook Set  ,Stationery,6.5,0,30/06/2026,UAE
+1163,Hassan Iqbal,  BACKPACK  ,Fashion,34.0,2,07-06-2026,USA
+1164,Hassan Iqbal,BALL PEN PACK,Stationery,,1,04-18-2026,USA
+1165,Fatima Sheikh,BLUETOOTH SPEAKER,Electronics,45.0,1,2026-07-03,PAKISTAN
+1166,  ,BALL PEN PACK,Stationery,3.2,-1,15/05/2026,Pakistan
+1167,,Water Bottle,Home,9.99,1,12/06/2026,PAKISTAN
+1168,Sana Khan,Desk Lamp,Furniture,22.0,5,01-27-2026,
+1169,Zainab Malik,NOTEBOOK SET,Stationery,6.5,2,28/06/2026,
+1170,Fatima Sheikh,  Mechanical Keyboard  ,Electronics,65.0,1,2026-02-21,PAKISTAN
+1171,,Desk Lamp,Furniture,22.0,0,18/02/2026,PAKISTAN
+1172,Sana Khan,Laptop,Electronics,750.0,5,23/04/2026,PAKISTAN
+1173,,Mechanical Keyboard,Electronics,65.0,3,21/01/2026,USA
+1174,Sana Khan,Mechanical Keyboard,Electronics,65.0,5,06-04-2026,UAE
+1175,Ali Raza,Mechanical Keyboard,Electronics,65.0,5,2026-06-13,Pakistan
+1176,M. Bilal,Ball Pen Pack,Stationery,3.2,1,20/07/2026,Pakistan
+1177,Zainab Malik,MECHANICAL KEYBOARD,Electronics,65.0,5,2026-06-04,
+1178,Sana Khan,Bluetooth Speaker,Electronics,45.0,2,16/06/2026,pakistan
+1179,,  WIRELESS MOUSE  ,Electronics,18.5,-1,18/07/2026,
+1180,Fatima Sheikh,BLUETOOTH SPEAKER,Electronics,45.0,2,2026-04-26,
+1181,Zainab Malik,Bluetooth Speaker,Electronics,45.0,5,16/03/2026,pakistan
+1182,Sana Khan,Mechanical Keyboard,Electronics,65.0,2,2026-05-07,PAKISTAN
+1183,,Water Bottle,Home,9.99,2,21/03/2026,
+1184,  ,Bluetooth Speaker,Electronics,45.0,1,19/01/2026,UAE
+1185,,Water Bottle,Home,9.99,2,2026-05-09,Pakistan
+1186,Zainab Malik,  WATER BOTTLE  ,Home,9.99,2,2026-03-14,PAKISTAN
+1187,M. Bilal,Office Chair,Furniture,120.0,3,2026-06-14,USA
+1188,  ,BACKPACK,Fashion,34.0,5,2026-01-08,Pakistan
+1189,  ,BACKPACK,Fashion,34.0,-1,06-10-2026,PAKISTAN
+1190,Usman Tariq,Desk Lamp,Furniture,22.0,3,10/02/2026,UAE
+1191,M. Bilal,Bluetooth Speaker,Electronics,45.0,5,30/03/2026,pakistan
+1192,Ayesha Noor,  Notebook Set  ,Stationery,6.5,0,2026-02-06,Pakistan
+1193,Usman Tariq,Desk Lamp,Furniture,22.0,2,03-25-2026,
+1194,,  NOTEBOOK SET  ,Stationery,6.5,0,2026-01-06,UAE
+1195,  ,Water Bottle,Home,,5,14/03/2026,USA
+1196,Sana Khan,  BLUETOOTH SPEAKER  ,Electronics,45.0,-1,04/04/2026,PAKISTAN
+1197,Ayesha Noor,Laptop,Electronics,750.0,5,10/05/2026,USA
+1198,  ,Desk Lamp,Furniture,22.0,1,06/04/2026,USA
+1199,,  Notebook Set  ,Stationery,6.5,-1,02-05-2026,PAKISTAN
+1200,,  Bluetooth Speaker  ,Electronics,45.0,2,11/02/2026,USA
+1201,,Desk Lamp,Furniture,22.0,0,05/01/2026,PAKISTAN
+1202,Ali Raza,Wireless Mouse,Electronics,18.5,0,07-18-2026,USA
+1203,M. Bilal,Office Chair,Furniture,120.0,-1,01-09-2026,
+1204,Usman Tariq,WIRELESS MOUSE,Electronics,18.5,2,05-09-2026,UAE
+1205,,Laptop,Electronics,750.0,5,07/04/2026,pakistan
+1206,Zainab Malik,Bluetooth Speaker,Electronics,45.0,3,05/03/2026,USA
+1207,Hassan Iqbal,DESK LAMP,Furniture,22.0,3,06/05/2026,UAE
+1208,Hassan Iqbal,Notebook Set,Stationery,6.5,3,08/04/2026,PAKISTAN
+1209,Sana Khan,MECHANICAL KEYBOARD,Electronics,65.0,5,11/07/2026,pakistan
+1210,,Office Chair,Furniture,120.0,3,2026-05-31,pakistan
+1211,Ayesha Noor,Laptop,Electronics,750.0,1,2026-05-01,
+1212,M. Bilal,MECHANICAL KEYBOARD,Electronics,65.0,-1,02/05/2026,
+1213,Hassan Iqbal,Office Chair,Furniture,120.0,1,2026-05-27,USA
+1214,M. Bilal,  Laptop  ,Electronics,750.0,1,2026-05-07,
+1215,  ,  Desk Lamp  ,Furniture,22.0,1,04-27-2026,USA
+1216,,Water Bottle,Home,9.99,0,2026-03-26,
+1217,Ali Raza,Bluetooth Speaker,Electronics,45.0,5,2026-07-13,pakistan
+1218,Usman Tariq,Backpack,Fashion,34.0,5,2026-02-17,UAE
+1219,Usman Tariq,  Notebook Set  ,Stationery,6.5,2,26/03/2026,USA
+1220,Ayesha Noor,BACKPACK,Fashion,34.0,1,10/02/2026,
+1221,Hassan Iqbal,Water Bottle,Home,9.99,1,04-05-2026,pakistan
+1222,Fatima Sheikh,Office Chair,Furniture,120.0,5,05-01-2026,
+1223,  ,Office Chair,Furniture,120.0,1,2026-04-03,USA
+1224,,WIRELESS MOUSE,Electronics,18.5,2,03-25-2026,UAE
+1225,Fatima Sheikh,Wireless Mouse,Electronics,18.5,1,15/01/2026,pakistan
+1226,,Water Bottle,Home,9.99,0,06/01/2026,PAKISTAN
+1227,Ali Raza,Laptop,Electronics,750.0,-1,2026-01-16,UAE
+1228,M. Bilal,  LAPTOP  ,Electronics,750.0,-1,25/04/2026,UAE
+1229,,Wireless Mouse,Electronics,18.5,2,02-15-2026,UAE
+1230,Ali Raza,WATER BOTTLE,Home,9.99,1,07-04-2026,UAE
+1231,Fatima Sheikh,Water Bottle,Home,9.99,5,2026-07-05,Pakistan
+1232,Ali Raza,Ball Pen Pack,Stationery,3.2,2,09/01/2026,USA
+1233,Fatima Sheikh,  LAPTOP  ,Electronics,750.0,2,2026-07-18,pakistan
+1234,  ,Water Bottle,Home,9.99,5,2026-03-24,PAKISTAN
+1235,Usman Tariq,Mechanical Keyboard,Electronics,65.0,3,06-01-2026,pakistan
+1236,Zainab Malik,  Ball Pen Pack  ,Stationery,3.2,-1,17/04/2026,pakistan
+1237,Fatima Sheikh,Desk Lamp,Furniture,22.0,2,2026-07-01,UAE
+1238,,Laptop,Electronics,750.0,2,03-26-2026,Pakistan
+1239,Ayesha Noor,  Bluetooth Speaker  ,Electronics,45.0,1,2026-06-04,Pakistan
+1240,,Office Chair,Furniture,120.0,2,27/03/2026,Pakistan
+1241,Sana Khan,Office Chair,Furniture,120.0,0,2026-06-30,UAE
+1242,Usman Tariq,Office Chair,Furniture,120.0,0,08/03/2026,USA
+1243,Fatima Sheikh,Bluetooth Speaker,Electronics,45.0,5,2026-04-16,USA
+1244,,  Office Chair  ,Furniture,120.0,-1,28/02/2026,USA
+1245,Zainab Malik,Office Chair,Furniture,120.0,3,07-05-2026,
+1246,Zainab Malik,Bluetooth Speaker,Electronics,45.0,2,02-17-2026,
+1247,Sana Khan,Laptop,Electronics,750.0,1,2026-06-11,Pakistan
+1248,Zainab Malik,MECHANICAL KEYBOARD,Electronics,65.0,1,07/06/2026,
+1249,Usman Tariq,BLUETOOTH SPEAKER,Electronics,,1,04/07/2026,USA
+1250,Usman Tariq,DESK LAMP,Furniture,22.0,2,2026-02-08,pakistan
+1251,Hassan Iqbal,Backpack,Fashion,34.0,-1,04-28-2026,pakistan
+1252,Sana Khan,OFFICE CHAIR,Furniture,120.0,1,22/05/2026,Pakistan
+1253,Usman Tariq,  Laptop  ,Electronics,750.0,5,01-25-2026,Pakistan
+1254,  ,OFFICE CHAIR,Furniture,120.0,0,25/06/2026,USA
+1255,Zainab Malik,  Backpack  ,Fashion,34.0,1,07-12-2026,UAE
+1256,  ,WIRELESS MOUSE,Electronics,18.5,-1,04-09-2026,pakistan
+1257,Ali Raza,Wireless Mouse,Electronics,18.5,1,03-29-2026,USA
+1258,Ali Raza,Backpack,Fashion,34.0,3,28/02/2026,USA
+1259,Usman Tariq,Ball Pen Pack,Stationery,3.2,1,03-05-2026,Pakistan
+1260,M. Bilal,WIRELESS MOUSE,Electronics,18.5,-1,02/01/2026,UAE
+1010,,DESK LAMP,Furniture,22.0,3,30/05/2026,PAKISTAN
+1045,Hassan Iqbal,  Notebook Set  ,Stationery,6.5,3,28/06/2026,USA
+1100,,Ball Pen Pack,Stationery,3.2,-1,14/07/2026,USA
